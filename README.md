@@ -25,6 +25,12 @@ The Task Management Application is a robust solution designed to streamline task
 ## Installation
 
 ### Frontend (client/)
-1. Navigate to the `client/` directory:
-   ```bash
+1. Navigate to the `client/` directory: 
    cd client
+   npm run dev
+
+
+### Backen (server/)
+1. Navigate to teh `server/` directary:
+   cd server
+   nodemon server.js
