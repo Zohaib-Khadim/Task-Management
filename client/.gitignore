@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Vite build output
+dist/
+build/
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs and databases
+*.log
+*.sqlite
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+*.swp
+*.bak
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Test coverage
+coverage/
+
+# Vite specific
+vite.config.ts.build.cache/
